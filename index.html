@@ -1,0 +1,236 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Course Landing Page</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/d1c0920680.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<div id="header">
+		<!--NAVBAR -->
+		<div id="navbar">
+			<div class="container flex">
+				<h1>ITutorials.</h1>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Courses</a></li>
+					<li><a href="#">Our Team</a></li>
+				</ul>
+
+			</div>
+		</div>
+
+		<div class="header-content flex">
+			
+			<div class="hero">
+				<h1>Innovative Learning</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+				<button class="btn" type="submit" required>Read More</button>
+
+				<ul>
+					
+				</ul>
+
+			</div>
+			<div class="demo-form card">
+				<h2>Request a Demo</h2>
+				<form>
+					<input type="text" required placeholder="Name">
+					<input type="email" required placeholder="Email">
+					<input type="text" required placeholder="College"><br>
+					<button class="btn" type="submit" required>Send</button>
+				</form>
+
+			</div>
+
+		</div>
+
+
+	</div>
+
+	<!--Key stats section -->
+	<section class="stats">
+		<div class="container ">
+			<h2 class="stats-heading">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+			</h2>
+
+			<!--stats -->
+			<div class="grid-3">
+				<div class="grid-item">
+					<i class="fas fa-users fa-4x"></i>
+					<h2>10000+</h2>
+					<p class="icon-label">Students Community</p>
+
+				</div>
+				<div class="grid-item">
+					<i class="fas fa-film fa-4x"></i>
+					<h2>200+</h2>
+					<p class="icon-label">Hours of content</p>
+				</div>
+				<div class="grid-item">
+					<i class="fas fa-file-code fa-4x"></i>
+					<h2>500+</h2>
+					<p class="icon-label">Technical articles</p>
+
+				</div>
+
+
+			</div>
+		</div>
+
+	</section>
+	<br><br>
+	<!--Course cards -->
+	<secton class="course">
+		<h2 class="stats-heading">Featured Courses
+			</h2>
+		<div class=" course-container">
+		<div class="card item">
+			<img class="logo" src="images/python.png" width="90px" height="80px" >
+			<h3>Python Foundation with data structures </h3>
+			<strike>Rs.5000</strike>
+			<br>
+			<span class="price">Rs.3000</span>
+			<br>
+			<button type="button"  class="mybtn">View Description</button>
+		</div>
+		<div class="card item">
+			<img class="logo" src="images/ruby.png" width="90px" height="80px" >
+			<h3>Ruby on rails</h3>
+			<strike>Rs.5000</strike>
+			<br>
+			<span class="price">Rs.2000</span>
+			<br>
+			<button type="button"  class="mybtn">View Description</button>
+		</div>
+		<div class="card item">
+			<img class="logo" src="images/node.png" width="90px" height="80px" >
+			<h3>Node.js master course</h3>
+			<strike>Rs.9000</strike>
+			<br>
+			<span class="price">Rs.4000</span>
+			<br>
+			<button type="button"  class="mybtn">View Description</button>
+		</div>
+		<div class="card item">
+			<img class="logo" src="images/php.png" width="90px" height="80px" >
+			<h3>Backend development with PHP </h3>
+			<strike>Rs.7000</strike>
+			<br>
+			<span class="price">Rs.2000</span>
+			<br>
+			<button type="button"  class="mybtn">View Description</button>
+		</div>
+		<div class="card item">
+			<img class="logo" src="images/java.png" width="90px" height="80px" >
+			<h3>JAVA Foundation with data structures </h3>
+			<strike>Rs.5000</strike>
+			<br>
+			<span class="price">Rs.3000</span>
+			<br>
+			<button type="button"  class="mybtn">View Description</button>
+		</div>
+		
+
+
+	</div>
+
+
+	</secton>
+
+	<!--Instructors -->
+	<section class="instructors-section">
+		<div class="container">
+			<h2 class="stats-heading">Meet Your Instructors</h2>
+			<div class="flex">
+				<div class="instructor-img-box">
+					<img onmouseover="fun('one')" src="images/man.jpg" class="instructor-img ">
+					<p class="hidden" id="one">
+						<b>Instructor 1</b>
+						<br>
+						Web Development
+					</p>
+				</div>
+				<div class="instructor-img-box">
+					<img  onmouseover="fun('two')" src="images/man.jpg" class="instructor-img ">
+					<p class="hidden" id="two">
+						<b>Instructor 2</b>
+						<br>
+						Ruby on Rails
+
+					</p>
+				</div>
+				<div class="instructor-img-box">
+					<img  onmouseover="fun('three')" src="images/man.jpg" class="instructor-img ">
+					<p class="hidden" id="three">
+						<b>Instructor 3</b>
+						<br>
+						Android Development
+
+					</p>
+				</div>
+				<div class="instructor-img-box">
+					<img  onmouseover="fun('four')" src="images/man.jpg" class="instructor-img ">
+					<p class="hidden" id="four">
+						<b>Instructor 4</b>
+						<br>
+						Data structures
+
+					</p>
+				</div>
+
+
+			</div>
+			<p class="centered-text" id="instructor-text">
+				
+						<b>Instructor 4</b>
+						<br>
+						Web Development
+			</p>
+
+
+		</div>
+
+
+	</section>
+	<!-- Footer-->
+	<section>
+		<div class="footer">
+			<div class="container flex">
+				<h1>ITutorials</h1>
+
+				<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Courses</a></li>
+						<li><a href="#">Our team</a></li>
+				</ul>
+				<div class="social">
+					<a href="#"><i class="fab fa-github fa-2x"></i></a>
+					<a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+					<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+					<a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+
+				</div>
+
+			</div>
+		</div>
+
+
+	</section>
+	
+	
+	<script>
+		
+		function fun(id){
+			let txt=document.getElementById(id).innerHTML;
+			//alert(txt);
+			document.getElementById("instructor-text").innerHTML=txt;
+		}
+	</script>
+</body>
+</html>
