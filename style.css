@@ -359,6 +359,9 @@ background: linear-gradient(5deg, rgba(22,81,156,1) 4%, rgba(3,139,247,1) 100%);
 	.course-container{
 		max-width: 700px;
 	}
+	.stats{
+		margin-top:80px ;
+	}
 
 
 
