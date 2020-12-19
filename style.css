@@ -212,16 +212,19 @@ background: linear-gradient(5deg, rgba(22,81,156,1) 4%, rgba(3,139,247,1) 100%);
 		height: 280px;
 		width: 250px;
 		margin: 30px;
+		background-color:#f9f9fb;
 		padding: 20px;
 		text-align: center;
 		position: relative;
-		box-shadow: gray 3px 3px 9px;
-		transition:0.4s;
+		box-shadow: gray 0px 0px 5px;/*0px and 0px- does shadow on all 4 sides! */
+		transition: transform 0.2s, box-shadow 0.2s, background-color 0.4s;
 
 	}
 .item:hover{
-	transform: translate(-2px, -2px);
-	box-shadow: gray 7px 7px 10px;
+	/*transform: translate(-2px, -2px);*/
+	transform: scale(1.01);
+	background-color:white;
+	box-shadow: gray 0px 0px 10px;
 }
 .name{
 	margin: 20px;
@@ -270,17 +273,21 @@ background: linear-gradient(5deg, rgba(22,81,156,1) 4%, rgba(3,139,247,1) 100%);
 .instructor-img{
 	border-radius: 50%;
 	width: 95%;
-	margin: 3px;
+	margin: 4px;
 	opacity: 0.5;
 	height: 95%;
 	transition: 0.2s;
-	border: 0px solid black;
+	object-fit: cover;/*vvi */
+	border: 0px solid white;
+
 }
 
-.instructor-img:hover{
+.instructor-img-active{
 	opacity: 1;
 	width: 100%;
 	height: 100%;
+	box-shadow: 4px 4px 10px #888888;
+	transform:scale(1.02); 
 }
 .hidden{
 	display: none;
@@ -317,6 +324,12 @@ background: linear-gradient(5deg, rgba(22,81,156,1) 4%, rgba(3,139,247,1) 100%);
 	padding: 10px;
 	border: 0px solid yellow;
 
+}
+.fab{
+	transition: 0.3s;
+}
+.fab:hover{
+	color:rgb(95, 151, 224);;
 }
 /*Animations */
 /*@keyframes slideinfromleft{

@@ -29,7 +29,9 @@
 			
 			<div class="hero">
 				<h1>Innovative Learning</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore 
+					magna aliqua</p>
 				<button class="btn" type="submit" required>Read More</button>
 
 				<ul>
@@ -149,7 +151,7 @@
 			<h2 class="stats-heading">Meet Your Instructors</h2>
 			<div class="flex">
 				<div class="instructor-img-box">
-					<img onmouseover="fun('one')" src="images/man.jpg" class="instructor-img ">
+					<img  src="https://source.unsplash.com/dtSaSlDob0c" class="instructor-img instructor-img-active">
 					<p class="hidden" id="one">
 						<b>Instructor 1</b>
 						<br>
@@ -157,7 +159,7 @@
 					</p>
 				</div>
 				<div class="instructor-img-box">
-					<img  onmouseover="fun('two')" src="images/man.jpg" class="instructor-img ">
+					<img src="https://source.unsplash.com/C7FB7H-sXJs" class="instructor-img ">
 					<p class="hidden" id="two">
 						<b>Instructor 2</b>
 						<br>
@@ -166,7 +168,7 @@
 					</p>
 				</div>
 				<div class="instructor-img-box">
-					<img  onmouseover="fun('three')" src="images/man.jpg" class="instructor-img ">
+					<img   src="https://source.unsplash.com/FsWi0sBoi8c" class="instructor-img ">
 					<p class="hidden" id="three">
 						<b>Instructor 3</b>
 						<br>
@@ -175,7 +177,7 @@
 					</p>
 				</div>
 				<div class="instructor-img-box">
-					<img  onmouseover="fun('four')" src="images/man.jpg" class="instructor-img ">
+					<img  src="https://source.unsplash.com/xKn9Udjublw" class="instructor-img ">
 					<p class="hidden" id="four">
 						<b>Instructor 4</b>
 						<br>
@@ -187,7 +189,9 @@
 
 			</div>
 			<p class="centered-text" id="instructor-text">
-				
+				<b>Instructor 1</b>
+				<br>
+				Web Development
 						
 			</p>
 
@@ -222,13 +226,7 @@
 	</section>
 	
 	
-	<script>
-		
-		function fun(id){
-			let txt=document.getElementById(id).innerHTML;
-			//alert(txt);
-			document.getElementById("instructor-text").innerHTML=txt;
-		}
+	<script src="script.js">
 	</script>
 </body>
 </html>

@@ -2,3 +2,6 @@ https://zen-carson-c10c9f.netlify.app/index.html ->loruki site
 https://cssgradient.io/
 https://css-tricks.com/almanac/properties/b/border-radius/
 Margin top issue- https://stackoverflow.com/questions/9519841/why-does-this-css-margin-top-style-not-work
+https://www.udemy.com/course/javascript-tutorial-for-beginners-w/ ->dom projects-> scroll intro
+https://www.udemy.com/course/modern-javascript-from-the-beginning/ ->check out oops, api projects for practice
+https://www.youtube.com/watch?v=rTB-UNl_B_Y&ab_channel=FrontendTips
