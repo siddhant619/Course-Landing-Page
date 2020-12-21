@@ -10,6 +10,9 @@ body{
 	font-family: 'Lato',sans-serif;
 
 }
+html{
+	scroll-behavior: smooth;
+}
 h2{
 	margin-top: 30px;
 	margin-bottom: 10px;
@@ -329,7 +332,7 @@ background: linear-gradient(5deg, rgba(22,81,156,1) 4%, rgba(3,139,247,1) 100%);
 	transition: 0.3s;
 }
 .fab:hover{
-	color:rgb(95, 151, 224);;
+	color:rgb(95, 151, 224);
 }
 /*Animations */
 /*@keyframes slideinfromleft{
@@ -348,7 +351,21 @@ background: linear-gradient(5deg, rgba(22,81,156,1) 4%, rgba(3,139,247,1) 100%);
 		transform: translateX(0);
 	}
 }*/
-
+#back-to-top{
+	/*color:rgb(64, 133, 223);*/
+	color: darkgray;
+	position: -webkit-sticky;
+	position: sticky;
+	top:80vh;
+	float: right;
+	display: none;
+	margin-right: 10px;
+	transition: all 0.5s;
+}
+#back-to-top:hover{
+	cursor: pointer;
+	color:rgb(72, 79, 88); ;
+}
 @media (max-device-width: 700px)  {
 	#header .flex{
 		flex-direction: column;

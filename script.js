@@ -22,6 +22,21 @@ for(img of instructorImgs){
         //this.nextElementSibling.classList.toggle('hidden');
     })
 }
+document.addEventListener("scroll", function(){
+    if(window.scrollY>100){
+        console.log('boo');
+        document.getElementById('back-to-top').style.display="inline";
+    }
+    if(window.scrollY<100){
+        console.log('boo');
+        document.getElementById('back-to-top').style.display="none";
+    }
+})
+const scrollbtn=document.getElementById('back-to-top');
+scrollbtn.addEventListener('click',function(){
+    document.documentElement.scrollTop = 0;
+})
+
 /* function fun(id){
     let txt=document.getElementById(id).innerHTML;
     //alert(txt);
